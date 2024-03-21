@@ -53,10 +53,7 @@
     "test": "tests"
   },
   "dependencies": {
-    "@babel/core": "^7.0.0",
-    "@embroider/addon-shim": "^1.8.6",
-    "broccoli-funnel": "2.0.1",
-    "resolve": "^1.10.0"
+    "@embroider/addon-shim": "^1.8.7"
   },
   "ember": {
     "edition": "octane"
@@ -121,13 +118,7 @@
       "./helpers/toggle.js": "./dist/_app_/helpers/toggle.js",
       "./helpers/union.js": "./dist/_app_/helpers/union.js",
       "./helpers/values.js": "./dist/_app_/helpers/values.js",
-      "./helpers/without.js": "./dist/_app_/helpers/without.js",
-      "./utils/as-array.js": "./dist/_app_/utils/as-array.js",
-      "./utils/comparison.js": "./dist/_app_/utils/comparison.js",
-      "./utils/get-index.js": "./dist/_app_/utils/get-index.js",
-      "./utils/is-equal.js": "./dist/_app_/utils/is-equal.js",
-      "./utils/is-object.js": "./dist/_app_/utils/is-object.js",
-      "./utils/is-promise.js": "./dist/_app_/utils/is-promise.js"
+      "./helpers/without.js": "./dist/_app_/helpers/without.js"
     }
   }
 }
