@@ -1,6 +1,6 @@
 {
   "name": "@nullvoxpopuli/ember-composable-helpers",
-  "version": "5.0.2",
+  "version": "5.0.3",
   "description": "Composable helpers for Ember",
   "scripts": {
     "build": "rollup --config",
@@ -68,7 +68,7 @@
     "dist"
   ],
   "ember-addon": {
-    "main": "addon-main.js",
+    "main": "addon-main.cjs",
     "type": "addon",
     "version": 2,
     "app-js": {
